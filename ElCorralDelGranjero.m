@@ -1,11 +1,11 @@
 % Octave Script
 % Title            :El Corral Del Granjero
-% Description      :Script para graficar una funci髇 del area de un corral rectangular
+% Description      :Script para graficar una funci贸n del area de un corral rectangular
 % Author           :Orlando Urbano Trejo (Lando), Guadalupe Cristel Martinez Martinez, Misael Barbosa Arce, urbanoorlando79@gmail.com
 % Date             :2021013
 % Version          :1
 % Usage            :octave>path/ElCorralDelGranjero
-%                  :Requiere aplicaci髇 octave, usar linea de comandos
+%                  :Requiere aplicaci贸n octave, usar linea de comandos
 %                  :https://octaveintro.readthedocs.io/en/latest/index.html
 
 % Limpiar Variables
@@ -13,11 +13,13 @@ clear
 % Ejercicicio Del Corral Del Granjero 
 % Rango de 0..1 en i = 0.1
 r=0:0.1:1;
-% Valor de la funci髇
+% Valor de la funci贸n
  ar = @(r) (120 - 1.5);
-% Funci髇 a plotear 
- y = (120 - 1.5);
-% Funci髇 para determinar un valor minimo
+ 
+% Funci贸n a plotear 
+ y = (120 - 1.5
+ 
+% Funci贸n para determinar un valor minimo
 resr = fminbnd(ar,0,1);
 % Dibujar r,y
  plot(r,y);
@@ -25,6 +27,7 @@ resr = fminbnd(ar,0,1);
 title (['Minimo material  r = ' num2str(resr)]);
 % Etiqueta para x
   xlabel(['Min r = ' num2str(resr)]);
+  
 % Etiqueta para y
   ylabel(['Min y = ' num2str( ar(resr))]);
   
