@@ -1,19 +1,19 @@
 % Octave Script
-% Title		       :Función Inyectiva, Sobreyectiva, Biyectiva (Ejercicio_3)
+% Title		       :FunciÃ³n Inyectiva, Sobreyectiva, Biyectiva (Ejercicio_3)
 % Correo         :urbanoorlando79@gmail.com
-% Description	   :Script para determinar que tipo de función es dependiendo el dominio de la función
+% Description	   :Script para determinar que tipo de funciÃ³n es dependiendo el dominio de la funciÃ³n
 % Author	       :Orlando Urbano Trejo (Lando)
 % Date		       :16_11_2021
 % Version	       :1
 % Usage		       :octave>path/Ejercicio_3
-%		             :Requiere aplicación octave, usar linea de comandos
+%		             :Requiere aplicaciÃ³n octave, usar linea de comandos
 %		             :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
-% Dominio de la función
+% Dominio de la funciÃ³n
 v= -30:0.1:-1
 % Regla de correspondencia
 fr= (1) ./ (v.^3)
-disp ('La función es inyectiva ya que ?x,y?D | f(x) = f(y) ? x = y ');
-% Plotear función
+disp ('La funciÃ³n es inyectiva ya que âˆ€x,yâˆˆD | f(x) = f(y) âŸ¹ x = y ');
+% Plotear funciÃ³n
 plot (v, fr)
