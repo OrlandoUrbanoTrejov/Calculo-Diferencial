@@ -1,23 +1,23 @@
 % Octave Script
-% Title		       :Funciones Trascendentes: Trigonométricas, Logarítmicas y Exponenciales (Ejercicio_1)
+% Title		       :Funciones Trascendentes: TrigonomÃ©tricas, LogarÃ­tmicas y Exponenciales (Ejercicio_1)
 % Correo         :urbanoorlando79@gmail.com
 % Description	   :Script para graficar funicones y determinar que tipo de funcion es.
 % Author	       :Orlando Urbano Trejo (Lando)
 % Date		       :23_11_2021
 % Version	       :1
 % Usage		       :octave>path/Ejercicio_1
-%		             :Requiere aplicación octave, usar linea de comandos
+%		             :Requiere aplicaciÃ³n octave, usar linea de comandos
 %		             :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
-disp ('Función_1');
-% Dominio de la función
+disp ('FunciÃ³n_1');
+% Dominio de la funciÃ³n
 x= -8:1:8
 % Regla de correspondencia
 fx=(3.^x)/(7)
-disp ('La función es inyectiva ya que ?x,y?D | f(x) = f(y) ? x = y ');
-disp ('El dominio de la función es (-?, ?)');
-disp ('El rango de la función es de (0, ?)');
+disp ('La funciÃ³n es inyectiva ya que âˆ€x,yâˆˆD | f(x) = f(y) âŸ¹ x = y ');
+disp ('El dominio de la funciÃ³n es (-âˆ, âˆ)');
+disp ('El rango de la funciÃ³n es de (0, âˆ)');
 disp ('Los puntos donde f(x)=0 son los puntos (0,1/7)');
-% Plotear función
+% Plotear funciÃ³n
 plot (x, fx)
