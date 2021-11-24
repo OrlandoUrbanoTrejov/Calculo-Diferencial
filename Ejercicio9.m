@@ -1,7 +1,7 @@
 % Octave Script
 % Title           :Funciones Trascendentes: Trigonométricas, Logarítmicas y Exponenciales (Ejercicio9)
 % Correo          :urbanoorlando79@gmail.com
-% Description     :Script para graficar funicones y determinar que tipo de funcion es.
+% Description     :Script para graficar funciones y determinar que tipo de funcion es.
 % Author          :Orlando Urbano Trejo (Lando)
 % Date            :23_11_2021
 % Version         :1
