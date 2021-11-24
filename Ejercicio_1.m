@@ -1,19 +1,23 @@
 % Octave Script
-% Title		       :Función Inyectiva, Sobreyectiva, Biyectiva (Ejercicio_1)
+% Title		       :Funciones Trascendentes: Trigonométricas, Logarítmicas y Exponenciales (Ejercicio_1)
 % Correo         :urbanoorlando79@gmail.com
-% Description	   :Script para determinar que tipo de función es dependiendo el dominio de la función
+% Description	   :Script para graficar funicones y determinar que tipo de funcion es.
 % Author	       :Orlando Urbano Trejo (Lando)
-% Date		       :16_11_2021
+% Date		       :23_11_2021
 % Version	       :1
 % Usage		       :octave>path/Ejercicio_1
 %		             :Requiere aplicación octave, usar linea de comandos
 %		             :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
+disp ('Función_1');
 % Dominio de la función
-x= -20:2:20
+x= -8:1:8
 % Regla de correspondencia
-gx=x.^2
-disp ('La expresión no corresponde a ninguna de los elementos no corresponden a un solo dominio tambien no puede ser suprayectiva ya que sobran elementos en el contradominio');
+fx=(3.^x)/(7)
+disp ('La función es inyectiva ya que ?x,y?D | f(x) = f(y) ? x = y ');
+disp ('El dominio de la función es (-?, ?)');
+disp ('El rango de la función es de (0, ?)');
+disp ('Los puntos donde f(x)=0 son los puntos (0,1/7)');
 % Plotear función
-plot (x, gx)
+plot (x, fx)
