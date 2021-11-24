@@ -4,7 +4,7 @@
 % Description     :Script para graficar funciones y determinar que tipo de funcion es.
 % Author          :Orlando Urbano Trejo (Lando)
 % Date            :23_11_2021
-% Version	        :1
+% Version         :1
 % Usage           :octave>path/Ejercicio15
 %                 :Requiere aplicación octave, usar linea de comandos
 %                 :https://octaveintro.readthedocs.io/en/latest/index.html
