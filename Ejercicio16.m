@@ -1,22 +1,22 @@
 % Octave Script
-% Title		       :Funciones Trascendentes: Trigonométricas, Logarítmicas y Exponenciales (Ejercicio_15)
-% Correo         :urbanoorlando79@gmail.com
-% Description	   :Script para graficar funicones y determinar que tipo de funcion es.
-% Author	       :Orlando Urbano Trejo (Lando)
-% Date		       :23_11_2021
-% Version	       :1
-% Usage		       :octave>path/Ejercicio_15
-%		             :Requiere aplicación octave, usar linea de comandos
-%		             :https://octaveintro.readthedocs.io/en/latest/index.html
+% Title           :Funciones Trascendentes: TrigonomÃ©tricas, LogarÃ­tmicas y Exponenciales (Ejercicio16)
+% Correo          :urbanoorlando79@gmail.com
+% Description     :Script para graficar funciones y determinar que tipo de funcion es.
+% Author          :Orlando Urbano Trejo (Lando)
+% Date            :23_11_2021
+% Version         :1
+% Usage           :octave>path/Ejercicio16
+%                 :Requiere aplicaciÃ³n octave, usar linea de comandos
+%                 :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
-disp ('Función_15');
-% Dominio de la función
+disp ('FunciÃ³n16');
+% Dominio de la funciÃ³n
 x= -100:1:100
 % Regla de correspondencia
 fx=sin(6.* x - 10)
-disp ('La función es una función real');
-disp ('El dominio de la función es (-infinito, infinito)');
-disp ('El rango de la función es de [-1,1]');
-% Plotear función
+disp ('La funciÃ³n es una funciÃ³n real');
+disp ('El dominio de la funciÃ³n es (-âˆ, âˆ)');
+disp ('El rango de la funciÃ³n es de [-1,1]');
+% Plotear funciÃ³n
 plot (x, fx)
