@@ -7,7 +7,7 @@
 % Version         :1
 % Usage           :octave>path/Ejercicio_1
 %                 :Requiere aplicación octave, usar linea de comandos
-%	                :https://octaveintro.readthedocs.io/en/latest/index.html
+%                 :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
 disp ('Función_1');
