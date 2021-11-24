@@ -6,7 +6,7 @@
 % Date            :23_11_2021
 % Version         :1
 % Usage           :octave>path/Ejercicio_3
-%	                :Requiere aplicación octave, usar linea de comandos
+%                 :Requiere aplicación octave, usar linea de comandos
 %                 :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
