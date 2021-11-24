@@ -1,23 +1,23 @@
 % Octave Script
-% Title		       :Funciones Trascendentes: Trigonométricas, Logarítmicas y Exponenciales (Ejercicio_6)
-% Correo         :urbanoorlando79@gmail.com
-% Description	   :Script para graficar funicones y determinar que tipo de funcion es.
-% Author	       :Orlando Urbano Trejo (Lando)
-% Date		       :23_11_2021
-% Version	       :1
-% Usage		       :octave>path/Ejercicio_6
-%		             :Requiere aplicación octave, usar linea de comandos
-%		             :https://octaveintro.readthedocs.io/en/latest/index.html
+% Title           :Funciones Trascendentes: TrigonomÃ©tricas, LogarÃ­tmicas y Exponenciales (Ejercicio_7)
+% Correo          :urbanoorlando79@gmail.com
+% Description     :Script para graficar funicones y determinar que tipo de funcion es.
+% Author          :Orlando Urbano Trejo (Lando)
+% Date            :23_11_2021
+% Version         :1
+% Usage           :octave>path/Ejercicio_7
+%                 :Requiere aplicaciÃ³n octave, usar linea de comandos
+%                 :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
-disp ('Función6');
-% Dominio de la función
+disp ('FunciÃ³n7');
+% Dominio de la funciÃ³n
 v=-50:1:50
 % Regla de correspondencia
 fx = sin(v)
-disp ('La función seno es una función real');
-disp ('El dominio de la función es (-?, ?)');
-disp ('El rango de la función es de [-1,1]');
-disp ('Los puntos donde f(x)=0 son los puntos (2?, 0), (0,0)');
-% Plotear función
+disp ('La funciÃ³n seno es una funciÃ³n real');
+disp ('El dominio de la funciÃ³n es (-âˆ, âˆ)');
+disp ('El rango de la funciÃ³n es de [-1,1]');
+disp ('Los puntos donde f(x)=0 son los puntos (2Ï€, 0), (0,0)');
+% Plotear funciÃ³n
 plot (fx)
