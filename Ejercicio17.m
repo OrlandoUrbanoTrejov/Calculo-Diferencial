@@ -1,22 +1,22 @@
 % Octave Script
-% Title		       :Funciones Trascendentes: Trigonométricas, Logarítmicas y Exponenciales (Ejercicio_16)
-% Correo         :urbanoorlando79@gmail.com
-% Description	   :Script para graficar funicones y determinar que tipo de funcion es.
-% Author	       :Orlando Urbano Trejo (Lando)
-% Date		       :23_11_2021
-% Version	       :1
-% Usage		       :octave>path/Ejercicio_16
-%		             :Requiere aplicación octave, usar linea de comandos
-%		             :https://octaveintro.readthedocs.io/en/latest/index.html
+% Title           :Funciones Trascendentes: TrigonomÃ©tricas, LogarÃ­tmicas y Exponenciales (Ejercicio17)
+% Correo          :urbanoorlando79@gmail.com
+% Description     :Script para graficar funciones y determinar que tipo de funcion es.
+% Author          :Orlando Urbano Trejo (Lando)
+% Date            :23_11_2021
+% Version         :1
+% Usage           :octave>path/Ejercicio17
+%                 :Requiere aplicaciÃ³n octave, usar linea de comandos
+%                 :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
-disp ('Función_16');
-% Dominio de la función
+disp ('FunciÃ³n17');
+% Dominio de la funciÃ³n
 x= -50:2:50
 % Regla de correspondencia
 fx=cos(x.^2 + 3)
-disp ('La función es una función sobreyectiva ya que C=|, es decir ?y?|?x?D|f(x)=y');
-disp ('El dominio de la función es (-infinito, infinito)');
-disp ('El rango de la función no existe');
-% Plotear función
+disp ('La funciÃ³n es una funciÃ³n sobreyectiva ya que C=|, es decir âˆ€yâˆˆ|âˆƒxâˆˆD|f(x)=y');
+disp ('El dominio de la funciÃ³n es (-âˆž, âˆž)');
+disp ('El rango de la funciÃ³n no existe');
+% Plotear funciÃ³n
 plot (x, fx)
